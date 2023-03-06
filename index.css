@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Cascadia Code";
+}
+
+.btn {
+  width: 150px;
+  padding: 5px 20px;
+  font-size: 20px;
+  
+  background: lightskyblue;
+  box-shadow: 2px 2px 2px black;
+  font-family: inherit;
+  text-shadow: 0px 0px 1px black;
+}
+
+#count-el {
+  color: white;
+  font-size: 30px;
+  background-color: lightgoldenrodyellow;
+  padding: 20px 30px;
+  border-radius: 15px;
+  text-shadow: 0px 0px 3px black;
+  box-shadow: 2px 2px 2px black;
+}
+
+#reset {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#save{
+  margin-top: 10px;
+}
+
+#save:hover{
+  background-color: lightgreen;
+  color: white;
+  text-shadow: 0px 0px 3px black;
+}
+
+#reset:hover{
+  background-color: lightcoral;
+  color: white;
+  text-shadow: 0px 0px 3px black;
+}
+
+#increase:hover{
+  background-color: rgb(107, 191, 224);
+  color: white;
+  text-shadow: 0px 0px 3px black;
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid lightskyblue;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+html,body{
+  height: 100%;
+}
+
+#heading{
+  background-color: lightskyblue;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+}
+
+#content-el{
+  background-color: lightgoldenrodyellow;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+}
