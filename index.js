@@ -18,6 +18,7 @@ function save(){
     text = " - " + count
   }
   contentEl.textContent += text
+  count = 0
 }
 
 function reset() {
