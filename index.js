@@ -1,9 +1,9 @@
-let count = 0;
-let passanger = document.getElementById("count-el");
+let count = 0
+let passanger = document.getElementById("count-el")
 
 function increase() {
-  count = count + 1;
-  passanger.textContent = count;
+  count = count + 1
+  passanger.textContent = count
 }
 
 
@@ -19,10 +19,11 @@ function save(){
   }
   contentEl.textContent += text
   count = 0
+  passanger.textContent = count
 }
 
 function reset() {
   count = 0;
-  passanger.textContent = count;
-  contentEl.textContent = "Previous Passangers:";
+  passanger.textContent = count
+  contentEl.textContent = "Previous Passangers:"
 }
